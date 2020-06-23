@@ -30,6 +30,17 @@ namespace TypeCasting
 
             Console.WriteLine(userName.ToUpper());  //we have ToLower() too
             Console.WriteLine("Length of username: " + userName.Length);
+
+            string max = $"Max between {age} and {myInt} is {Math.Max(myInt, age)}";
+            Console.WriteLine(max);
+
+            string stringExamples = $"second char of username is \"{userName[1]}\" ";
+            Console.WriteLine(stringExamples);
+
+            string myStr = "Omid Nobahari";
+            int charPos = myStr.IndexOf("N");
+            string lastName = myStr.Substring(charPos);
+            Console.WriteLine(lastName);
         }
     }
 }
