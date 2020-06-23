@@ -27,6 +27,9 @@ namespace TypeCasting
 
             Console.WriteLine("Max between age and myNum: " + Math.Max(myInt, age));
             //Math.Min / Max / Abs / Sqrt / Round
+
+            Console.WriteLine(userName.ToUpper());  //we have ToLower() too
+            Console.WriteLine("Length of username: " + userName.Length);
         }
     }
 }
