@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Linq;
 
 namespace If_Else
 {
@@ -62,7 +62,7 @@ namespace If_Else
             }
 
             //foreach
-            string[] cars = { "BMW", "VW", "MAZDA", "BENZ", "TOYOTA", "HONDA" };
+            string[] cars = { "VW", "BMW", "MAZDA", "BENZ", "TOYOTA", "HONDA" };
             foreach (string car in cars)
             {
                 if (car == "MAZDA")
@@ -76,6 +76,16 @@ namespace If_Else
                 }
                 Console.WriteLine(car);
             }
+
+            //sort
+            Array.Sort(cars);
+            Console.WriteLine(cars[0]); //BENZ
+
+            //using System.Linq 
+            int[] myNum = { 5, 9, 200, 45, 3, 10 };
+            Console.WriteLine(myNum.Max());
+            Console.WriteLine(myNum.Min());
+            Console.WriteLine(myNum.Sum());
 
         }
     }
