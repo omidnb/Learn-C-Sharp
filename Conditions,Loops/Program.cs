@@ -7,7 +7,7 @@ namespace If_Else
         static void Main(string[] args)
         {
             int age = 25;
-            if(age > 21)
+            if (age > 21)
             {
                 Console.WriteLine("Adult");
             }

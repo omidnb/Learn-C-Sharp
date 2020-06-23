@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeCasting", "TypeCasting\TypeCasting.csproj", "{5A26E492-0DFE-4CC6-B051-F19B24585793}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditions,Loops", "Conditions,Loops\Conditions,Loops.csproj", "{3B2B636C-BCF3-4462-8901-5C4056E8BC5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5A26E492-0DFE-4CC6-B051-F19B24585793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A26E492-0DFE-4CC6-B051-F19B24585793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A26E492-0DFE-4CC6-B051-F19B24585793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2B636C-BCF3-4462-8901-5C4056E8BC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2B636C-BCF3-4462-8901-5C4056E8BC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2B636C-BCF3-4462-8901-5C4056E8BC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2B636C-BCF3-4462-8901-5C4056E8BC5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
