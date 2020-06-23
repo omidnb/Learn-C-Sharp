@@ -8,7 +8,12 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World!");
             Console.Write("Hello  ");
-            Console.Write("World!");
+            Console.WriteLine("World!");
+
+            string str1 = "Hello ";
+            string str2 = "World!";
+            string str3 = string.Concat(str1, str2);
+            Console.WriteLine(str3);
         }
     }
 }
