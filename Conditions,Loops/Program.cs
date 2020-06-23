@@ -21,7 +21,7 @@ namespace If_Else
             int num = 25;
             string result = (num > 21) ? "Adult" : "Kiddo";
             Console.WriteLine(result);
-
+            
             //switch
             int meat = 5;
             switch (meat)
@@ -40,20 +40,43 @@ namespace If_Else
                     break;
             }
 
-            //while, do/while
-            int i = 1 , j = 1;
-            while(i < 5)
+            //while
+            int i = 1, j = 5;
+            while (i < 3)
             {
                 Console.WriteLine(i);
                 i++;
             }
-
+            //do...while
             do
             {
                 Console.WriteLine(j);
                 j++;
             }
-            while (j < 5);
+            while (j < 7);
+
+            //for
+            for (int z = 8; z < 10; z++)
+            {
+                Console.WriteLine(z);
+            }
+
+            //foreach
+            string[] cars = { "BMW", "VW", "MAZDA", "BENZ", "TOYOTA", "HONDA" };
+            foreach (string car in cars)
+            {
+                if (car == "MAZDA")
+                {
+                    Console.WriteLine("mazda3");
+                    continue;
+                }
+                if (car == "TOYOTA")
+                {
+                    break;
+                }
+                Console.WriteLine(car);
+            }
+
         }
     }
 }
