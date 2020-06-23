@@ -87,6 +87,7 @@ namespace If_Else
             Console.WriteLine(myNum.Min());
             Console.WriteLine(myNum.Sum());
 
+
         }
     }
 }
