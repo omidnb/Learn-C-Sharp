@@ -82,7 +82,8 @@ namespace If_Else
             Console.WriteLine(cars[0]); //BENZ
 
             //using System.Linq 
-            int[] myNum = { 5, 9, 200, 45, 3, 10 };
+            int[] myNum;
+            myNum = new int[] { 5, 9, 200, 45, 3, 10 };
             Console.WriteLine(myNum.Max());
             Console.WriteLine(myNum.Min());
             Console.WriteLine(myNum.Sum());
