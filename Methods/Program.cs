@@ -14,6 +14,22 @@ namespace Methods
             return x * 2 + y;
         }
 
+        static void MyMethod3(string car, string model)
+        {
+            string res = $"My fav car is {car} {model}.";
+            Console.WriteLine(res);
+        }
+
+
+        static int PlusMethod(int x , int y)
+        {
+            return x + y;
+        }
+        static double PlusMethod(double x, double y)
+        {
+            return x + y;
+        }
+
         static void Main(string[] args)
         {
             MyMethod1();
@@ -22,6 +38,11 @@ namespace Methods
             int res = MyMethod2(12, 5);
             Console.WriteLine(res);
             Console.WriteLine(MyMethod2(3, 5));
+
+            MyMethod3("BMW", "E46");
+
+            Console.WriteLine(PlusMethod(8, 5));
+            Console.WriteLine(PlusMethod(8.5, 5.2));
         }
     }
 }
