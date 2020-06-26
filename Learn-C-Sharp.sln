@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditions,Loops", "Conditi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{CC18E89F-3663-4151-B58F-9CB525FD416C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{1BFF4BF8-C751-4D39-BE04-A0179E4999F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{1BFF4BF8-C751-4D39-BE04-A0179E4999F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{2C22080F-4B75-4F46-A92A-E9136B1A0835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1BFF4BF8-C751-4D39-BE04-A0179E4999F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BFF4BF8-C751-4D39-BE04-A0179E4999F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BFF4BF8-C751-4D39-BE04-A0179E4999F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C22080F-4B75-4F46-A92A-E9136B1A0835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C22080F-4B75-4F46-A92A-E9136B1A0835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C22080F-4B75-4F46-A92A-E9136B1A0835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C22080F-4B75-4F46-A92A-E9136B1A0835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
