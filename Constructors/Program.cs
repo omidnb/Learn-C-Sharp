@@ -8,7 +8,10 @@ namespace Constructors
         {
             get { return clr; }
             set { clr = value; }
-        }
+}
+
+        //short form
+        public string Colour { get; set; }
     }
 
     class Car
@@ -30,9 +33,12 @@ namespace Constructors
             Console.WriteLine(myCar.year + " " + myCar.brand + " " + myCar.model);
 
             Color myClr = new Color();
-            myClr.Clr = "red";
+            myClr.Clr = "Red";
             Console.WriteLine(myClr.Clr);
 
+            Color myColour = new Color();
+            myColour.Colour = "White";
+            Console.WriteLine(myColour.Colour);
         }
     }
 }
