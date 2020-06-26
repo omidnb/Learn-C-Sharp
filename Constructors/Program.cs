@@ -6,9 +6,9 @@ namespace Constructors
         private string clr; //field
         public string Clr   //property
         {
-            get { return clr; }
-            set { clr = value; }
-}
+            get { return clr; }     //only get: read-only
+            set { clr = value; }    //only set: write-only
+        }
 
         //short form
         public string Colour { get; set; }
