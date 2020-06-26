@@ -2,6 +2,15 @@
 
 namespace Constructors
 {
+    class Color {
+        private string clr; //field
+        public string Clr   //property
+        {
+            get { return clr; }
+            set { clr = value; }
+        }
+    }
+
     class Car
     {
         public string brand;
@@ -19,6 +28,11 @@ namespace Constructors
         {
             Car myCar = new Car("BMW", "E46", 2005);
             Console.WriteLine(myCar.year + " " + myCar.brand + " " + myCar.model);
+
+            Color myClr = new Color();
+            myClr.Clr = "red";
+            Console.WriteLine(myClr.Clr);
+
         }
     }
 }
