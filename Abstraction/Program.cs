@@ -20,6 +20,22 @@ namespace Abstraction
             Console.WriteLine("BMW");
         }
     }
+
+    //Interface
+    //completely abstract class with only abstract methods and properties
+    interface Country
+    {
+        void city();
+    }
+
+    class Iran : Country
+    {
+        public void city()
+        {
+            Console.WriteLine("Tehran is the capital city of Iran.");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -27,6 +43,10 @@ namespace Abstraction
             Bmw myCar = new Bmw();
             myCar.carName();
             myCar.carModel();
+
+
+            Iran myCountry = new Iran();
+            myCountry.city();
         }
     }
 }
