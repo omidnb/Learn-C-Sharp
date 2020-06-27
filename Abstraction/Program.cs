@@ -23,12 +23,12 @@ namespace Abstraction
 
     //Interface
     //completely abstract class with only abstract methods and properties
-    interface Country
+    interface ICountry
     {
         void city();
     }
 
-    class Iran : Country
+    class Iran : ICountry
     {
         public void city()
         {
@@ -36,17 +36,47 @@ namespace Abstraction
         }
     }
 
+
+    //multiple interface
+    interface IFirstInterface
+    {
+        void firstMethod();
+    }
+    interface ISecondInterface
+    {
+        void secondMethod();
+    }
+
+    class MyClass : IFirstInterface, ISecondInterface
+    {
+        public void firstMethod()
+        {
+            Console.WriteLine("Hello");
+        }
+        public void secondMethod()
+        {
+            Console.WriteLine("Salam");
+        }
+    }
+
+
     class Program
     {
         static void Main(string[] args)
         {
+            //abstract
             Bmw myCar = new Bmw();
             myCar.carName();
             myCar.carModel();
 
-
+            //interface
             Iran myCountry = new Iran();
             myCountry.city();
+
+            //multiple interface
+            MyClass demo = new MyClass();
+            demo.firstMethod();
+            demo.secondMethod();
         }
     }
 }
